@@ -2,8 +2,24 @@
 
 body{
 font-family: 'Caveat', cursive;
+background-color: #EDD2E0;
 }
 
-#life{
-    color: blueviolet;
+
+img{
+    width: 1fr;
+    align-self: center;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    color: #797B84;
+}
+
+#img-caption{
+    color: #797B84;
+    font-size: 20px;
 }
