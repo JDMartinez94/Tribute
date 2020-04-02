@@ -2,17 +2,18 @@
 
 body{
 font-family: 'Caveat', cursive;
-background-color: #EDD2E0;
 }
 
-
-img{
+#img-div{
     width: 1fr;
+}
+
+#image{
     align-self: center;
 }
 
 body{
-    text-align: center;
+    text-align: justify;
 }
 
 h1{
