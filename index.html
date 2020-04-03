@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+</head>
+<body>
+<h1 id="title">Welcome to the 2020 survey</h1>
+<p id="description">The purpose of this survey is to understand the general feeling and happines levels of all people</p>
+
+<form id="survey-form">
+
+<label id="name-label" for="name">Name</label>
+    <input type="text" id="name" placeholder="Name" required>
+
+<label id="email-label" for="email">E-mail</label>
+    <input type="email" id="email" placeholder="e-mail" required>
+
+<label id="number-label" for="number">Age</label>
+    <input type="number" id="number" placeholder="Age" min="15" max="99" required>
+
+<p>What is the main emotion you feel right now?</p>
+    <select name="dropdown" id="dropdown">
+        <option disabled selected value>Select an emotion</option>
+        <option value="happy">Happy</option>
+        <option value="angry">Angry</option>
+        <option value="sad">Sad</option>
+        <option value="indiferent">Indiferent</option>
+    </select>
+
+<p>Please select how strong is your emotion</p>
+<label>1<input type="radio" name="strength" value="1"></label>
+<label>2<input type="radio" name="strength" value="2"></label>
+<label>3<input type="radio" name="strength" value="3"></label>
+<label>4<input type="radio" name="strength" value="4"></label>
+<label>5<input type="radio" name="strength" value="5"></label>
+
+<p>What do you think is the main source of these emotion?</p>
+<label><input type="checkbox" value="family">Family</label>
+<label><input type="checkbox" value="work">Work</label>
+<label><input type="checkbox" value="partner">Partner</label>
+<label><input type="checkbox" value="school">School</label>
+<label><input type="checkbox" value="myself">Myself</label>
+
+<p>Feel free to add any additional information you'd like us to consider</p>
+<textarea name="text" id="textarea"></textarea>
+
+<button type="submit">Enviar</button>
+
+</form>
+
+    
+</body>
+</html>
