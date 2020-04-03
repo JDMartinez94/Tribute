@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap');
+
+body{
+    font-family: 'Lemonada', cursive;  
+    text-align: center;  
+}
+
+form{
+    background-color: #3293b1;
+    
+}
